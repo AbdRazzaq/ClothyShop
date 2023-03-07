@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "771829368548",
+    "project_id": "clothyshop-fc661",
+    "storage_bucket": "clothyshop-fc661.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771829368548:android:73f5cb0907fc8128af4ef1",
+        "android_client_info": {
+          "package_name": "com.example.clothyshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771829368548-cd6e64n42na905bgavsi9r15rsufm1de.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clothyshop",
+            "certificate_hash": "dd1dda4a3dc9ec587e74d39e8399848fecf7b91b"
+          }
+        },
+        {
+          "client_id": "771829368548-410mfk1u7h8pjvvkkc6vd6nco4a3udvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl3z7E_BuUESoXhgSFG4l2fiCRC0XcSDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771829368548-410mfk1u7h8pjvvkkc6vd6nco4a3udvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
