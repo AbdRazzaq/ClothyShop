@@ -65,7 +65,4 @@ class ProductRepository @Inject constructor(private val shopApi: ShopApi,
             productDetailsData.postValue(detailsData)
         }
     }
-
-    //suspend fun getAllProducts() = apiHelper.getProducts()
-
 }

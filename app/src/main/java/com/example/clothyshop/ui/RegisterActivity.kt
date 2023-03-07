@@ -69,32 +69,4 @@ class RegisterActivity : AppCompatActivity() {
             }
         }
     }
-
-    /*private fun checkAllFields(
-        email: EditText,
-        password: EditText,
-        confirmPassword: EditText
-    ): Boolean {
-        if (TextUtils.isEmpty(email.text.toString())) {
-            email.error = "Email cannot be empty"
-            email.requestFocus()
-            return false
-        } else if (!Patterns.EMAIL_ADDRESS.matcher(email.text).matches()){
-            email.error = "Invalid Email"
-            email.requestFocus()
-        }else if (TextUtils.isEmpty(password.text.toString())) {
-            password.error = "Password cannot be empty"
-            password.requestFocus()
-            return false
-        }else if (TextUtils.isEmpty(confirmPassword.text.toString())) {
-            confirmPassword.error = "Confirm Password cannot be empty"
-            confirmPassword.requestFocus()
-            return false
-        } else if (confirmPassword.text.toString() != password.text.toString()) {
-            confirmPassword.error = "Password and Confirm Password should be same"
-            confirmPassword.requestFocus()
-            return false
-        }
-        return true
-    }*/
 }
