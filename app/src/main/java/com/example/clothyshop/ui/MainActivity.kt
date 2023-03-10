@@ -1,25 +1,15 @@
 package com.example.clothyshop.ui
 
 
-import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
+
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.ImageView
-import android.widget.ProgressBar
-import androidx.activity.viewModels
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.drawerlayout.widget.DrawerLayout
-import androidx.recyclerview.widget.RecyclerView
 import com.example.clothyshop.R
-import com.example.clothyshop.ui.adapter.ShopAdapter
-import com.example.clothyshop.ui.adapter.SliderAdapter
 import com.example.clothyshop.ui.fragments.*
-import com.example.clothyshop.viewmodel.MainViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationBarView
-import com.smarteist.autoimageslider.SliderView
 import dagger.hilt.android.AndroidEntryPoint
 
 
@@ -44,9 +34,9 @@ class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListen
     }
 
     private fun setUpBottomNav() {
-        bottomNavigationView = findViewById(R.id.bottom_navigation);
+        bottomNavigationView = findViewById(R.id.bottom_navigation)
 
-        bottomNavigationView.setOnItemSelectedListener(this);
+        bottomNavigationView.setOnItemSelectedListener(this)
         bottomNavigationView.selectedItemId = R.id.home
     }
 
